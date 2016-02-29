@@ -1,0 +1,37 @@
+Hola, me gustaría ahcer algunas aclaraciones de los siguientes puntos:
+
+-Intente minificar html, css y js con grunt. Desconocia esta aplicacion y sus plugin, pero para realizar el examen me informe a traves de
+varios sitios web y  tutoriales por youtube, sin embargo considero que necesito correciones para conseguir que funcione. 
+Como no pude realizarlo por falta de conocimiento en js opte por minificar los archivos a traves de herramientas en la web como 
+sitios dedidcados a minificar los archivos.
+
+- Conocía por nombre el preprocesador SASS, pero me tuve que informar así como también lo tuve que hacer para el post-procesador autoprefixer.
+Eh logrado instalar sass y autoprefixer pero, si bien comprendo un poco cuales son sus funciones principales, desconozco como escribir las 
+sintaxis correctamente, por lo tanto para conseguir el resultado decidí hacerlo de la manera clásica con CSS.Si bien con sass podría combinar los CSS
+en uno solo, lo haré manuelmente.
+
+Sabiendo esto procedoa  explicar como realice el maquetado de TEST:
+
+1- Genere el directorio principal, con las carpetas correspondientes.
+
+2- Descargue el Framework Chico UI, tome la versión de escritorio y comence sobre la misma a generar las etiquetas necesarias para realizar el trabajo. 
+Realice las modificaciones necesarias en las rutas para que funcionen los enlaces como CSS y JS.
+
+3- Genere main.css para realizar ajustes especificos en las etiquetas.
+
+3- Introduje los atributos que considere, o al menos los que me di cuenta, para shema.org (roles) y roles, y algunos estados y propiedades de WIA - ARIA.
+
+4- Arme la interacción de solapas en css, utilizando el siguiente link:"https://css-tricks.com/functional-css-tabs-revisited/", ya que no encontre en "CHICO" como hacerlos sin JS.
+
+5- Utilice el js de carousel pero al principio me costaba hacerlo funcionar, se veia un scroll horizontal. La consola de Chrome me indicaba que no encontraba la funcion de carousel.
+No pude identificar que sucedia, entonces fui al sitio de CHICO UI, y abri en una ventana para ver codigo fuente,ingrese al js de chico.min.js y me di cuenta q las versiones eran distintas ,
+entonces copie y lo guarde en mi proyecto.
+
+6- Combine todos los css en un llamado "principal.css", pero se generar errores en el trabajo final , entonces dedidi dejar los 5 css. Luego lo minifique en el sitio:"https://cssminifier.com/"
+los css que construi. Por último, utilice los css minificados que ya tenia el framework.
+
+7- Como comente en el punto 5, use el js minificado del sitio de CHICO UI .
+
+8- Minifique el HTML a través de la siguiente web:"http://www.willpeavy.com/minifier/".
+
+¡Muchas Gracias!

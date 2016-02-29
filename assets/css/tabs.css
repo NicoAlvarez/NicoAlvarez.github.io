@@ -1,0 +1,52 @@
+.tabs{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+
+.tabs:after{
+	content: "";
+	clear: both;
+	display: block;
+	height: 242px;
+}
+
+.tabs li{
+	float: left;
+}
+
+.tabs li > input{
+	display: none;
+}
+
+.tabs li > label{
+	cursor: pointer;
+	margin-left: 5px;
+	border-bottom: 0px;
+
+}
+
+.tabs li:last-child > label{
+	border-right-width: 1px;
+}
+
+.tabs .tab-content{
+	display: none;
+	position: absolute;
+	left: 0;
+	padding: 20px;
+	border: 1px solid #DDD;
+	height: 170px;
+	width: 95%;
+}
+
+/* Functional */
+
+.tabs li > input:checked + label{
+	background-color: #ddd;
+}
+
+.tabs li > input:checked ~ .tab-content{
+	display: block;
+}
